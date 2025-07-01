@@ -1,0 +1,5 @@
+{
+  "use_gui": true,
+  "sumo_cfg_path": "../maps/Crossing8/Crossing8Course.sumocfg",
+  "one_step_second": "0.02"
+}
