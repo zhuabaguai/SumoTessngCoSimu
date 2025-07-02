@@ -3,7 +3,7 @@
 
 同时，也诚挚推荐国产优秀的交通仿真平台 **TESS NG**，希望通过项目推广推动国产仿真技术的发展与应用！
 
-![红色车辆为TESS NG车辆，蓝色车辆为SUMO车辆](https://cdn.nlark.com/yuque/0/2025/png/40730850/1751273591836-bf0d6578-1926-4377-8b15-36db4a0d8e03.png)
+![红色车辆为TESS NG车辆，蓝色车辆为SUMO车辆](doc/images/sumo_tessng.png)
 
 ## 项目功能
 + **支持将 Python TraCI 脚本迁移为 C++ 的 libtraci 实现，显著提升运行效率，满足科研与工程对性能的更高要求。**
@@ -15,15 +15,15 @@
 
 SumoCoSimuWithTessng
 
-├── /include						->项目头文件
+├── /include						 ->项目头文件
 
-├── /lib							->项目三方静态库
+├── /lib					         ->项目三方静态库
 
-├── /src							->项目源文件
+├── /src					         ->项目源文件
 
-├── /SumoDependence				->sumo cpp开发依赖（动态库、头文件、静态库）
+├── /SumoDependence				         ->sumo cpp开发依赖（动态库、头文件、静态库）
 
-│  ├── /bin/						->可执行文件依赖的dll动态库
+│  ├── /bin/					         ->可执行文件依赖的dll动态库
 
 │  │  ├── libtracicpp.dll
 
@@ -31,7 +31,7 @@ SumoCoSimuWithTessng
 
 │  │  ├── xxx.dll
 
-│  ├── /include/					->项目依赖的相关头文件
+│  ├── /include/					 ->项目依赖的相关头文件
 
 │  │  ├── /libsumo/
 
@@ -41,15 +41,15 @@ SumoCoSimuWithTessng
 
 │  │  │  ├── xxx.h
 
-│  ├── /lib/						->编译时所需的lib静态库
+│  ├── /lib/						 ->编译时所需的lib静态库
 
 │  │  ├── libsumocpp.lib
 
 │  │  ├── libtracicpp.lib
 
-├── /TESSNG.zip					->TESSNG可执行文件zip压缩包
+├── /TESSNG.zip					         ->TESSNG可执行文件zip压缩包
 
-├── /maps						->sumo仿真路网文件
+├── /maps						 ->sumo仿真路网文件
 
 │  ├── /Crossing8/
 
@@ -63,13 +63,13 @@ SumoCoSimuWithTessng
 
 ├── CMakeLists.txt					-> CMake文件
 
-├── config.json					->项目运行配置文件
+├── config.json					        ->项目运行配置文件
 
 ├── main.cpp						->主程序
 
-├── README.md					->README
+├── README.md					        ->README
 
-├── LICENSE.txt					->开源证书
+├── LICENSE.txt					        ->开源证书
 
 ```
 
